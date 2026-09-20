@@ -1,0 +1,14 @@
+{
+  "name": "tablero-soporte",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tablero de tickets de soporte con HTML, Tailwind y JavaScript vainilla contra una API REST local",
+  "scripts": {
+    "api": "node preparar-db.js && json-server --watch db.json --port 3000",
+    "api:lento": "node preparar-db.js && json-server --watch db.json --port 3000 --delay 1500",
+    "reiniciar": "node preparar-db.js --forzar"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}

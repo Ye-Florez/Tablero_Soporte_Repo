@@ -1,0 +1,94 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "titulo": "La impresora del segundo piso no imprime",
+      "descripcion": "Los documentos quedan en cola y nunca salen. Ya la apagamos y la volvimos a prender.",
+      "solicitante": "Luz Marina Ortega",
+      "categoria": "hardware",
+      "prioridad": "media",
+      "estado": "abierto"
+    },
+    {
+      "id": 2,
+      "titulo": "No puedo entrar al correo desde el celular",
+      "descripcion": "En el computador funciona bien, pero en el celular dice que la contraseña es incorrecta.",
+      "solicitante": "Andrés Felipe Rojas",
+      "categoria": "accesos",
+      "prioridad": "baja",
+      "estado": "en_progreso"
+    },
+    {
+      "id": 3,
+      "titulo": "El sistema de facturación no abre",
+      "descripcion": "Desde esta mañana sale una pantalla en blanco al abrirlo. Hay clientes esperando en caja.",
+      "solicitante": "Diana Carolina Peña",
+      "categoria": "software",
+      "prioridad": "alta",
+      "estado": "abierto"
+    },
+    {
+      "id": 4,
+      "titulo": "El wifi de la sala de reuniones no conecta",
+      "descripcion": "Los portátiles ven la red pero no navegan. Con cable sí hay internet.",
+      "solicitante": "Jorge Iván Sepúlveda",
+      "categoria": "red",
+      "prioridad": "media",
+      "estado": "en_progreso"
+    },
+    {
+      "id": 5,
+      "titulo": "Solicitud de usuario para el practicante nuevo",
+      "descripcion": "Necesita correo y acceso a la carpeta compartida de contabilidad.",
+      "solicitante": "Marta Lucía Gómez",
+      "categoria": "accesos",
+      "prioridad": "baja",
+      "estado": "resuelto"
+    },
+    {
+      "id": 6,
+      "titulo": "El portátil se apaga solo",
+      "descripcion": "Se apaga sin aviso después de unos veinte minutos de uso. Se siente muy caliente por debajo.",
+      "solicitante": "Camilo Andrés Duarte",
+      "categoria": "hardware",
+      "prioridad": "alta",
+      "estado": "en_progreso"
+    },
+    {
+      "id": 7,
+      "titulo": "Instalar programa de edición de PDF",
+      "descripcion": "Para firmar y combinar los contratos que llegan escaneados.",
+      "solicitante": "Paola Andrea Villamizar",
+      "categoria": "software",
+      "prioridad": "baja",
+      "estado": "abierto"
+    },
+    {
+      "id": 8,
+      "titulo": "Internet muy lento en toda la oficina",
+      "descripcion": "Las videollamadas se cortan y las páginas tardan mucho en cargar.",
+      "solicitante": "Hernando Castillo",
+      "categoria": "red",
+      "prioridad": "alta",
+      "estado": "resuelto"
+    },
+    {
+      "id": 9,
+      "titulo": "El monitor parpadea",
+      "descripcion": "Parpadea cada tanto y a veces se pone negro por un segundo.",
+      "solicitante": "Luz Marina Ortega",
+      "categoria": "hardware",
+      "prioridad": "baja",
+      "estado": "abierto"
+    },
+    {
+      "id": 10,
+      "titulo": "Error al exportar el reporte de ventas a Excel",
+      "descripcion": "El archivo se descarga pero sale vacío. Antes funcionaba.",
+      "solicitante": "Diana Carolina Peña",
+      "categoria": "software",
+      "prioridad": "media",
+      "estado": "abierto"
+    }
+  ]
+}
