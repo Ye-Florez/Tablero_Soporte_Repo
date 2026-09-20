@@ -37,12 +37,11 @@ const resumen = document.querySelector('#resumen');
 const filtroEstado = document.querySelector('#filtro-estado');
 const inputBusqueda = document.querySelector('#busqueda');
 
-// ---------- Helpers compartidos ----------
 
 function crearElemento(etiqueta, clases, texto = '') {
   const el = document.createElement(etiqueta);
   el.className = clases;
-  el.textContent = texto; // textContent y no innerHTML, así no se cuela HTML del usuario
+  el.textContent = texto;
   return el;
 }
 
@@ -216,7 +215,7 @@ async function cambiarEstado(ticket) {
     const res = await fetch(`${API_URL}/${ticket.id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ estado: siguiente }), // solo el campo que cambia
+      body: JSON.stringify({ estado: siguiente }),
     });
 
     if (!res.ok) throw new Error(`No se pudo actualizar el estado: ${res.status}`);
